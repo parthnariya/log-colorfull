@@ -1,0 +1,27 @@
+{
+  "name": "log-colorfull",
+  "version": "1.0.0",
+  "description": "custom npm package color consoles",
+  "main": "lib/index.js",
+  "type": "lib/index.d.ts"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthnariya/log-colorfull.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parthnariya/log-colorfull/issues"
+  },
+  "homepage": "https://github.com/parthnariya/log-colorfull#readme",
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  },
+  "files": ["lib/**/*"]
+}
